@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>TFit Studio | Estúdio de musculação personalizada em Resende-RJ</title>
+<meta name="description" content="Estúdio de musculação personalizada em Resende-RJ. Avaliação inicial, acompanhamento profissional e treinos adaptados ao seu objetivo. Agende sua avaliação na TFit Studio.">
+<meta name="keywords" content="estúdio de musculação em Resende, treino personalizado Resende, personal trainer Resende RJ, TFit Studio, Mirante das Agulhas">
+<meta property="og:title" content="TFit Studio | Treino personalizado em Resende-RJ">
+<meta property="og:description" content="Seu treino. Seu ritmo. Sua evolução.">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚡</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ExerciseGym","name":"TFit Studio","description":"Estúdio de musculação personalizada em Resende-RJ","telephone":"+55 24 99995-5775","sameAs":["https://www.instagram.com/tfit.br"],"address":{"@type":"PostalAddress","streetAddress":"Rua Telmo Nicolini, 221 - Mirante das Agulhas","addressLocality":"Resende","addressRegion":"RJ","addressCountry":"BR"}}
+</script>
+<style>
+:root{--bg:#0c0d0f;--bg2:#131518;--card:#17191d;--line:#262a30;--tx:#ecedef;--mut:#9aa0a8;--ac:#6c9bff;--ac2:#9a6bff;color-scheme:dark;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:80px}
+body{margin:0;background:var(--bg);color:var(--tx);font-family:Inter,system-ui,sans-serif;font-weight:300;line-height:1.7;overflow-x:hidden}
+h1,h2,h3{font-family:Sora,Inter,sans-serif;font-weight:600;line-height:1.15;margin:0}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1160px;margin:auto;padding:0 24px}
+section{padding:110px 0;position:relative}
+.tag{font-size:12px;letter-spacing:.28em;text-transform:uppercase;color:var(--ac);display:flex;align-items:center;gap:12px;margin-bottom:18px}
+.tag::before{content:"";width:34px;height:1px;background:var(--ac)}
+h2{font-size:clamp(30px,4.4vw,50px);margin-bottom:20px}
+.lead{color:var(--mut);max-width:620px;font-size:17px}
+.btn{display:inline-flex;align-items:center;gap:10px;padding:16px 30px;border-radius:100px;font-family:Sora,sans-serif;font-weight:600;font-size:15px;background:linear-gradient(120deg,var(--ac),var(--ac2));color:#fff;position:relative;overflow:hidden;transition:transform .3s,box-shadow .3s;box-shadow:0 0 0 rgba(108,155,255,0)}
+.btn:hover{transform:translateY(-3px);box-shadow:0 12px 40px rgba(108,155,255,.4)}
+.btn::after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,transparent 30%,rgba(255,255,255,.55) 50%,transparent 70%);transform:translateX(-120%);animation:shine 3.6s infinite}
+.btn.ghost{background:transparent;color:var(--tx);border:1px solid var(--line);box-shadow:none}
+.btn.ghost::after{display:none}
+.btn.ghost:hover{border-color:var(--ac);color:var(--ac)}
+@keyframes shine{60%,100%{transform:translateX(120%)}}
+/* nav */
+nav{position:fixed;top:0;left:0;right:0;z-index:50;padding:calc(14px + env(safe-area-inset-top,0px)) 0 14px;transition:.4s}
+nav.s{background:rgba(12,13,15,.82);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center}
+.brand{font-family:Sora,sans-serif;font-weight:700;letter-spacing:.14em;font-size:18px}
+.brand span{color:var(--ac)}
+nav ul{display:flex;gap:30px;list-style:none;margin:0;padding:0;font-size:14px}
+nav ul a{color:var(--mut);transition:.3s}nav ul a:hover{color:var(--ac)}
+nav .btn{padding:10px 22px;font-size:13px}
+/* hero */
+#inicio{min-height:100vh;display:flex;align-items:center;padding:140px 0 90px;overflow:hidden}
+.grid-bg{position:absolute;inset:0;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:64px 64px;opacity:.35;-webkit-mask-image:radial-gradient(ellipse at 60% 40%,#000 10%,transparent 70%);mask-image:radial-gradient(ellipse at 60% 40%,#000 10%,transparent 70%);animation:drift 24s linear infinite}
+@keyframes drift{to{background-position:64px 64px}}
+.orb{position:absolute;border-radius:50%;filter:blur(90px);opacity:.35;animation:float 14s ease-in-out infinite}
+.o1{width:420px;height:420px;background:var(--ac);top:-80px;right:-60px}
+.o2{width:360px;height:360px;background:var(--ac2);bottom:-100px;left:-80px;animation-delay:-6s}
+@keyframes float{50%{transform:translate(40px,-50px) scale(1.12)}}
+.hero{display:grid;grid-template-columns:1.1fr .9fr;gap:60px;align-items:center;position:relative}
+h1{font-size:clamp(40px,6.6vw,82px);letter-spacing:-.02em}
+h1 em{font-style:normal;background:linear-gradient(120deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;color:transparent}
+h1 span{display:block}
+.hero p{color:var(--mut);font-size:18px;max-width:520px;margin:26px 0 38px}
+.cta{display:flex;gap:16px;flex-wrap:wrap}
+.ph{position:relative;border-radius:22px;overflow:hidden;background:linear-gradient(145deg,#1b1e23,#101216);border:1px solid var(--line);display:flex;align-items:flex-end;justify-content:flex-start;min-height:200px}
+.ph::before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 30% 20%,rgba(108,155,255,.2),transparent 55%),repeating-linear-gradient(135deg,transparent 0 22px,rgba(255,255,255,.025) 22px 23px)}
+.ph.im{background-size:cover;background-position:center top}
+.ph.im::before{background:linear-gradient(to top,rgba(12,13,15,.5),transparent 45%)}
+.ph small{position:relative;padding:16px 20px;color:var(--mut);font-size:12px;letter-spacing:.12em;text-transform:uppercase}
+.ph small::before{content:"◎ ";color:var(--ac)}
+.hero .ph{aspect-ratio:4/5;animation:bob 7s ease-in-out infinite}
+.hero .ph::after{content:"";position:absolute;left:0;right:0;height:2px;background:linear-gradient(90deg,transparent,var(--ac),transparent);animation:scan 4.5s ease-in-out infinite}
+@keyframes scan{0%,100%{top:8%}50%{top:92%}}
+@keyframes bob{50%{transform:translateY(-14px)}}
+.scroll{position:absolute;bottom:-50px;left:24px;font-size:11px;letter-spacing:.3em;color:var(--mut);text-transform:uppercase}
+/* marquee */
+.marq{border-block:1px solid var(--line);background:var(--bg2);overflow:hidden;padding:20px 0;white-space:nowrap}
+.marq div{display:inline-block;animation:mq 30s linear infinite;font-family:Sora,sans-serif;font-size:20px;color:var(--mut);letter-spacing:.1em;text-transform:uppercase}
+.marq b{color:var(--ac);margin:0 28px;font-weight:400}
+@keyframes mq{to{transform:translateX(-50%)}}
+/* sobre */
+.two{display:grid;grid-template-columns:1fr 1fr;gap:70px;align-items:center}
+.two .ph{aspect-ratio:1/1.05}
+.two p{color:var(--mut)}
+.quote{border-left:2px solid var(--ac);padding:6px 0 6px 22px;margin-top:28px;color:var(--tx)!important;font-family:Sora,sans-serif;font-size:18px}
+/* metodologia */
+#metodologia{background:var(--bg2)}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:22px;margin-top:60px;position:relative}
+.steps::before{content:"";position:absolute;top:26px;left:5%;right:5%;height:1px;background:linear-gradient(90deg,var(--ac),var(--ac2),transparent);transform-origin:left;transform:scaleX(0);transition:transform 1.8s ease .3s}
+.steps.in::before{transform:scaleX(1)}
+.step{position:relative;padding-top:0}
+.num{width:52px;height:52px;border-radius:50%;background:var(--bg);border:1px solid var(--ac);color:var(--ac);display:grid;place-items:center;font-family:Sora,sans-serif;font-weight:600;position:relative;margin-bottom:22px;box-shadow:0 0 22px rgba(108,155,255,.3)}
+.step h3{font-size:19px;margin-bottom:10px}
+.step p{color:var(--mut);font-size:15px;margin:0}
+/* diferenciais */
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:56px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:34px 30px;position:relative;overflow:hidden;transition:transform .4s,border-color .4s}
+.card::before{content:"";position:absolute;width:200px;height:200px;border-radius:50%;background:var(--ac);filter:blur(80px);opacity:0;top:-80px;right:-80px;transition:opacity .5s}
+.card:hover{transform:translateY(-8px);border-color:rgba(108,155,255,.55)}
+.card:hover::before{opacity:.22}
+.card i{font-style:normal;font-size:26px;color:var(--ac);display:block;margin-bottom:20px}
+.card h3{font-size:19px;margin-bottom:10px}
+.card p{margin:0;color:var(--mut);font-size:15px}
+/* galeria */
+#estrutura{background:var(--bg2)}
+.gal{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:190px;gap:16px;margin-top:50px}
+.gal .ph{min-height:0;transition:transform .5s,border-color .4s}
+.gal .ph:hover{transform:scale(1.025);border-color:var(--ac)}
+.gal .g1{grid-column:span 2;grid-row:span 2}
+.gal .g4{grid-column:span 2}
+.note{color:var(--mut);font-size:13px;margin-top:18px}
+/* depoimentos */
+.dep{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:50px}
+.dep .card{border-style:dashed;text-align:left}
+.stars{color:var(--line);letter-spacing:6px;margin-bottom:16px}
+.dep p{font-style:italic}
+/* contato */
+#contato{background:var(--bg2)}
+.info{list-style:none;padding:0;margin:30px 0 36px;display:grid;gap:18px}
+.info li{display:flex;gap:16px;align-items:flex-start;color:var(--mut)}
+.info li b{color:var(--tx);font-weight:500;display:block}
+.info span{color:var(--ac);font-size:20px;line-height:1.5}
+.map{border-radius:22px;overflow:hidden;border:1px solid var(--line);min-height:420px;background:var(--card);display:flex;flex-direction:column}
+.map iframe{border:0;width:100%;flex:1;min-height:420px;filter:grayscale(.85) invert(.9) contrast(.9)}
+.map a{padding:14px;text-align:center;font-size:13px;color:var(--ac);border-top:1px solid var(--line)}
+/* final cta + footer */
+.final{text-align:center;padding:130px 0;overflow:hidden}
+.final h2{font-size:clamp(32px,5.4vw,64px);max-width:800px;margin:0 auto 18px}
+.final .lead{margin:0 auto 38px}
+footer{border-top:1px solid var(--line);padding:34px 0;color:var(--mut);font-size:13px}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap}
+/* whatsapp */
+.wpp{position:fixed;right:22px;bottom:calc(22px + env(safe-area-inset-bottom,0px));z-index:60;width:62px;height:62px;border-radius:50%;background:#25d366;display:grid;place-items:center;box-shadow:0 10px 30px rgba(37,211,102,.4);transition:transform .3s}
+.wpp:hover{transform:scale(1.1)}
+.wpp::before{content:"";position:absolute;inset:0;border-radius:50%;border:2px solid #25d366;animation:ping 2.2s infinite}
+@keyframes ping{to{transform:scale(1.7);opacity:0}}
+.wpp svg{width:32px;height:32px;fill:#fff}
+/* reveal */
+.rv{opacity:0;transform:translateY(34px);transition:opacity .9s ease,transform .9s ease;transition-delay:var(--d,0s)}
+.rv.in{opacity:1;transform:none}
+@media(max-width:900px){
+section{padding:80px 0}
+nav ul{display:none}
+.hero,.two{grid-template-columns:1fr;gap:44px}
+.hero .ph{aspect-ratio:4/3}
+.steps,.cards,.dep{grid-template-columns:1fr}
+.steps::before{display:none}
+.gal{grid-template-columns:1fr 1fr;grid-auto-rows:150px}
+.gal .g1{grid-column:span 2}
+.scroll{display:none}
+}
+.burger{display:none;width:48px;height:48px;background:none;border:0;flex-direction:column;justify-content:center;align-items:flex-end;gap:6px;cursor:pointer;position:relative;z-index:2;padding:0 4px}
+.burger i{display:block;height:2px;width:26px;background:var(--tx);transition:.3s}
+.burger i:last-child{width:18px}
+.brand{position:relative;z-index:2}
+.bar{display:none}
+html{-webkit-text-size-adjust:100%}
+a,button{-webkit-tap-highlight-color:transparent}
+@media(max-width:900px){
+html{scroll-padding-top:64px}
+body{padding-bottom:calc(84px + env(safe-area-inset-bottom,0px));font-size:16px}
+.wrap{padding:0 20px}
+section{padding:64px 0}
+nav{z-index:70;padding-bottom:6px}
+nav.s{backdrop-filter:none;-webkit-backdrop-filter:none;background:rgba(12,13,15,.95)}
+nav.open{background:transparent;border-color:transparent}
+nav>.wrap>.btn{display:none}
+.burger{display:flex}
+nav ul{display:flex;flex-direction:column;position:fixed;inset:0;background:rgba(12,13,15,.98);justify-content:center;align-items:center;gap:28px;font-size:26px;font-family:Sora,sans-serif;opacity:0;pointer-events:none;transition:opacity .35s;z-index:1}
+nav ul a{color:var(--tx);padding:8px 16px;display:block}
+nav.open ul{opacity:1;pointer-events:auto}
+nav.open .burger i:first-child{transform:translateY(4px) rotate(45deg)}
+nav.open .burger i:last-child{transform:translateY(-4px) rotate(-45deg);width:26px}
+.tag{font-size:11px;letter-spacing:.22em;margin-bottom:14px}
+h2{font-size:clamp(27px,8vw,36px);margin-bottom:16px}
+.lead{font-size:16px}
+.btn{min-height:52px;padding:16px 26px;justify-content:center}
+#inicio{min-height:auto;padding:104px 0 56px}
+.hero{gap:34px}
+h1{font-size:clamp(40px,12.5vw,58px)}
+.hero p{font-size:16px;margin:20px 0 28px}
+.cta{flex-direction:column;gap:12px}
+.cta .btn,#contato .btn,.final .btn{width:100%}
+.hero .ph{aspect-ratio:4/3.4;border-radius:18px}
+.orb{filter:blur(60px)}
+.o1,.o2{width:260px;height:260px}
+.grid-bg{background-size:44px 44px}
+.marq{padding:14px 0}.marq div{font-size:14px}
+.two{gap:34px}
+.two .ph{aspect-ratio:4/3}
+.quote{font-size:16px}
+.steps{gap:0;margin-top:38px}
+.step{display:grid;grid-template-columns:52px 1fr;column-gap:18px;padding-bottom:30px}
+.step:last-child{padding-bottom:0}
+.num{margin:0;grid-row:span 2;align-self:start}
+.step h3{margin:4px 0 6px;font-size:18px}
+.steps::before{display:block;top:26px;bottom:30px;left:25px;right:auto;width:1px;height:auto;background:linear-gradient(var(--ac),var(--ac2),transparent);transform:scaleY(0);transform-origin:top;transition:transform 1.8s ease .3s}
+.steps.in::before{transform:scaleY(1)}
+.cards{gap:12px;margin-top:34px}
+.card{padding:22px 20px;display:grid;grid-template-columns:40px 1fr;column-gap:14px;border-radius:16px}
+.card i{grid-row:span 2;margin:0;font-size:24px}
+.card h3{font-size:17px;margin-bottom:4px}
+.card:hover{transform:none}
+.gal,.dep{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;gap:12px;margin:34px -20px 0;padding:0 20px 6px;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.gal::-webkit-scrollbar,.dep::-webkit-scrollbar{display:none}
+.gal .ph,.gal .g1,.gal .g4{flex:0 0 80%;height:300px;scroll-snap-align:center}
+.gal .ph:hover{transform:none}
+.dep .card{flex:0 0 84%;scroll-snap-align:center;display:block}
+.note{font-size:12px}
+.map{min-height:320px}.map iframe{min-height:320px}
+.final{padding:80px 0}
+footer{padding-bottom:20px}
+footer .wrap{flex-direction:column;gap:10px}
+.wpp{bottom:calc(20px + env(safe-area-inset-bottom,0px));right:16px;width:58px;height:58px}
+.bar{display:block;position:fixed;left:0;right:0;bottom:0;z-index:65;padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));background:rgba(12,13,15,.92);backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);border-top:1px solid var(--line);transform:translateY(110%);transition:transform .4s}
+.bar.show{transform:none}
+.bar .btn{width:100%}
+.bar-on .wpp{opacity:0;pointer-events:none;transform:scale(.6)}
+}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+</style>
+</head>
+<body>
+<nav id="nav"><div class="wrap">
+<a href="#inicio" class="brand">T<span>FIT</span> STUDIO</a>
+<ul><li><a href="#sobre">Sobre</a></li><li><a href="#metodologia">Metodologia</a></li><li><a href="#diferenciais">Diferenciais</a></li><li><a href="#estrutura">Estrutura</a></li><li><a href="#contato">Contato</a></li></ul>
+<a class="btn wa" href="#">Agende uma avaliação</a>
+<button class="burger" id="burger" aria-label="Abrir menu"><i></i><i></i></button>
+</div></nav>
+
+<section id="inicio">
+<div class="grid-bg"></div><div class="orb o1"></div><div class="orb o2"></div>
+<div class="wrap hero">
+<div>
+<div class="tag rv">Musculação personalizada · Resende-RJ</div>
+<h1 class="rv" style="--d:.1s"><span>Seu treino.</span><span>Seu ritmo.</span><span><em>Sua evolução.</em></span></h1>
+<p class="rv" style="--d:.2s">Treinamento individualizado, com avaliação, acompanhamento próximo e exercícios ajustados ao seu corpo e ao seu objetivo, em um ambiente pensado para você.</p>
+<div class="cta rv" style="--d:.3s"><a class="btn wa" href="#">Agende uma avaliação →</a><a class="btn ghost" href="#metodologia">Conheça o método</a></div>
+</div>
+<div class="ph rv" style="--d:.2s"><small>Foto de destaque do estúdio (substituir)</small></div>
+</div>
+<div class="wrap"><div class="scroll">Role para explorar</div></div>
+</section>
+
+<div class="marq"><div id="mq"></div></div>
+
+<section id="sobre"><div class="wrap two">
+<div class="ph rv"><small>Foto do estúdio / equipe (substituir)</small></div>
+<div>
+<div class="tag rv">Sobre a TFit</div>
+<h2 class="rv">Um estúdio boutique, feito para quem quer ser visto como indivíduo.</h2>
+<p class="rv">A TFit Studio é um espaço de musculação personalizada em Resende. Aqui o treino não é uma ficha genérica: é construído para o seu momento, respeitando seus limites e acompanhando cada avanço.</p>
+<p class="rv">O atendimento individualizado e o acompanhamento profissional fazem a diferença na segurança, na constância e nos resultados de quem treina.</p>
+<p class="quote rv">Do primeiro ao último exercício, com um professor ao seu lado.</p>
+</div></div></section>
+
+<section id="metodologia"><div class="wrap">
+<div class="tag rv">Metodologia</div>
+<h2 class="rv">Como funciona o treinamento personalizado</h2>
+<p class="lead rv">Um caminho simples, do primeiro contato à evolução contínua.</p>
+<div class="steps" id="steps">
+<div class="step rv"><div class="num">01</div><h3>Avaliação inicial</h3><p>Conversamos sobre seu histórico, rotina, objetivos e eventuais limitações.</p></div>
+<div class="step rv" style="--d:.15s"><div class="num">02</div><h3>Treino sob medida</h3><p>O programa é montado de acordo com o seu perfil e a sua meta.</p></div>
+<div class="step rv" style="--d:.3s"><div class="num">03</div><h3>Acompanhamento</h3><p>Orientação durante os treinos, com atenção à execução de cada exercício.</p></div>
+<div class="step rv" style="--d:.45s"><div class="num">04</div><h3>Ajustes e evolução</h3><p>Os exercícios são revistos e adaptados conforme você progride.</p></div>
+</div></div></section>
+
+<section id="diferenciais"><div class="wrap">
+<div class="tag rv">Diferenciais</div>
+<h2 class="rv">O que torna a TFit diferente</h2>
+<div class="cards">
+<div class="card rv"><i>◉</i><h3>Atenção individualizada</h3><p>Você não é só mais um aluno: cada treino recebe foco no seu caso.</p></div>
+<div class="card rv" style="--d:.1s"><i>✦</i><h3>Acompanhamento profissional</h3><p>Orientação técnica presente para tirar dúvidas e guiar sua rotina.</p></div>
+<div class="card rv" style="--d:.2s"><i>⌖</i><h3>Correção da execução</h3><p>Movimento correto para treinar com segurança e melhores resultados.</p></div>
+<div class="card rv"><i>◈</i><h3>Treinos adaptados</h3><p>Planejados de acordo com o objetivo de cada aluno.</p></div>
+<div class="card rv" style="--d:.1s"><i>❖</i><h3>Ambiente acolhedor</h3><p>Um espaço tranquilo, onde é fácil se sentir à vontade para treinar.</p></div>
+<div class="card rv" style="--d:.2s"><i>⬡</i><h3>Estrutura moderna</h3><p>Equipamentos e espaço organizados para um treino de qualidade.</p></div>
+</div></div></section>
+
+<section id="estrutura"><div class="wrap">
+<div class="tag rv">Estrutura</div>
+<h2 class="rv">Conheça o espaço</h2>
+<p class="lead rv">Um ambiente pensado para treinar com foco e conforto.</p>
+<div class="gal">
+<div class="ph g1 rv"><small>Foto do espaço (substituir)</small></div>
+<div class="ph rv" style="--d:.1s"><small>Equipamentos</small></div>
+<div class="ph rv" style="--d:.2s"><small>Área de treino</small></div>
+<div class="ph g4 rv"><small>Ambiente (substituir)</small></div>
+<div class="ph rv" style="--d:.1s"><small>Detalhes</small></div>
+<div class="ph rv" style="--d:.2s"><small>Recepção</small></div>
+</div>
+<p class="note">Deslize para o lado para ver mais. Espaços reservados: substitua pelas fotos reais da TFit.</p>
+</div></section>
+
+<section id="depoimentos"><div class="wrap">
+<div class="tag rv">Depoimentos</div>
+<h2 class="rv">O que dizem nossos alunos</h2>
+<div class="dep">
+<div class="card rv"><div class="stars">★★★★★</div><p>[Depoimento real de aluno será inserido aqui]</p><small style="color:var(--mut)">— Nome do aluno</small></div>
+<div class="card rv" style="--d:.1s"><div class="stars">★★★★★</div><p>[Depoimento real de aluno será inserido aqui]</p><small style="color:var(--mut)">— Nome do aluno</small></div>
+<div class="card rv" style="--d:.2s"><div class="stars">★★★★★</div><p>[Depoimento real de aluno será inserido aqui]</p><small style="color:var(--mut)">— Nome do aluno</small></div>
+</div></div></section>
+
+<section id="contato"><div class="wrap two" style="align-items:stretch">
+<div>
+<div class="tag rv">Localização e contato</div>
+<h2 class="rv">Venha conhecer a TFit</h2>
+<ul class="info rv">
+<li><span>⌖</span><div><b>Endereço</b>Rua Telmo Nicolini, 221 - Mirante das Agulhas, Resende-RJ</div></li>
+<li><span>✆</span><div><b>Telefone / WhatsApp</b><a href="tel:+5524999955775">(24) 99995-5775</a></div></li>
+<li><span>◎</span><div><b>Instagram</b><a href="https://www.instagram.com/tfit.br" target="_blank" rel="noopener">@tfit.br</a></div></li>
+<li><span>◷</span><div><b>Horários</b>[Preencher horário de funcionamento]</div></li>
+</ul>
+<div class="cta rv"><a class="btn wa" href="#">Quero conhecer a TFit</a><a class="btn ghost" href="https://agendamento.nextfit.com.br/8ed52803-a915-45cc-affb-1c934a1d66c4" target="_blank" rel="noopener">Agendar online</a></div>
+</div>
+<div class="map rv">
+<iframe title="Mapa TFit Studio" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=Rua+Telmo+Nicolini,+221,+Mirante+das+Agulhas,+Resende,+RJ&output=embed"></iframe>
+<a href="https://www.google.com/maps/search/?api=1&query=Rua+Telmo+Nicolini,+221,+Mirante+das+Agulhas,+Resende,+RJ" target="_blank" rel="noopener">Abrir no Google Maps ↗</a>
+</div></div></section>
+
+<section class="final"><div class="grid-bg"></div><div class="orb o1" style="opacity:.2"></div>
+<div class="wrap" style="position:relative">
+<h2 class="rv">Seu próximo passo começa com uma avaliação.</h2>
+<p class="lead rv">Fale com a gente pelo WhatsApp e agende o seu horário.</p>
+<a class="btn wa rv" href="#">Agende uma avaliação →</a>
+</div></section>
+
+<footer><div class="wrap"><div>© <span id="y"></span> TFit Studio · Resende-RJ</div><div>Landing page de apresentação, não é o site oficial da empresa. · <a href="https://www.instagram.com/tfit.br" target="_blank" rel="noopener" style="color:var(--ac)">@tfit.br</a></div></div></footer>
+
+<div class="bar" id="bar"><a class="btn wa" href="#">Agende uma avaliação</a></div>
+<a class="wpp wa" href="#" aria-label="Falar no WhatsApp"><svg viewBox="0 0 32 32"><path d="M16 3C9 3 3.4 8.6 3.4 15.5c0 2.3.6 4.4 1.7 6.3L3 29l7.4-1.9a12.5 12.5 0 0 0 5.6 1.4C23 28.5 28.6 22.9 28.6 16S23 3 16 3zm0 22.8c-1.8 0-3.6-.5-5.1-1.4l-.4-.2-4.4 1.1 1.2-4.3-.3-.4a10.2 10.2 0 0 1-1.6-5.5C5.4 9.9 10.2 5.3 16 5.3S26.4 10 26.4 15.8 21.700 25.800 16 25.800zm5.600-7.600c-.3-.2-1.800-.9-2.100-1s-.5-.2-.7.2-.8 1-1 1.200-.4.2-.7.1a8.300 8.300 0 0 1-4.100-3.600c-.3-.5.300-.5.900-1.600.1-.2 0-.4 0-.5l-1-2.300c-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.100-.8.400-.3.300-1.100 1.100-1.100 2.600s1.100 3 1.300 3.200c.2.200 2.200 3.400 5.300 4.700 2 .8 2.700.9 3.700.8.600-.1 1.800-.7 2.100-1.500.3-.7.300-1.300.2-1.500-.1-.1-.3-.2-.6-.4z"/></svg></a>
+
+<script>
+var MSG=encodeURIComponent("Olá! Quero conhecer a TFit Studio e agendar uma avaliação.");
+var URL="https://wa.me/5524999955775?text="+MSG;
+document.querySelectorAll(".wa").forEach(function(a){a.href=URL;a.target="_blank";a.rel="noopener"});
+document.getElementById("y").textContent=new Date().getFullYear();
+var words=["Seu treino","Seu ritmo","Sua evolução","Treino personalizado","Resende-RJ"],h="";
+for(var i=0;i<8;i++){words.forEach(function(w){h+=w+"<b>✦</b>"})}
+document.getElementById("mq").innerHTML=h+h;
+var nav=document.getElementById("nav");
+var bar=document.getElementById("bar");
+addEventListener("scroll",function(){nav.classList.toggle("s",scrollY>40);var on=scrollY>360;bar.classList.toggle("show",on);document.body.classList.toggle("bar-on",on)},{passive:true});
+document.getElementById("burger").onclick=function(){var o=nav.classList.toggle("open");document.body.style.overflow=o?"hidden":""};
+document.querySelectorAll("nav ul a").forEach(function(a){a.onclick=function(){nav.classList.remove("open");document.body.style.overflow=""}});
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{threshold:.15});
+document.querySelectorAll(".rv,#steps").forEach(function(el){io.observe(el)});
+</script>
+</body>
+</html>
